@@ -8,6 +8,16 @@
     <style>
       li {
         display: inline-block;
+        /* border: 1px solid black;
+        border-color: black;
+        background-color:mediumpurple;
+        padding: 3px 50px 15px 50px ;
+        color: white;
+        font-size:x-large;
+        margin-left: 3px; */
+      }
+
+      .Num{
         border: 1px solid black;
         border-color: black;
         background-color:mediumpurple;
@@ -16,17 +26,28 @@
         font-size:x-large;
         margin-left: 3px;
       }
+
+      .Hidden {
+        visibility: hidden;
+      }
     </style>
 </head>
 <body>
     <h1>Hide even numbers from 1 tp 10 !</h1>
     <br>
-    <ul>
-        <li>1</li>
-        <li>3</li>
-        <li>5</li>
-        <li>7</li>
-        <li>9</li>
-    </ul>
+    <div>
+       <ul>
+           <li class="Num">1</li>
+           <li class="Hidden">2</li>
+           <li class="Num">3</li>
+           <li class="Hidden">4</li>
+           <li class="Num">5</li>
+           <li class="Hidden">6</li>
+           <li class="Num">7</li>
+           <li class="Hidden">8</li>
+           <li class="Num">9</li>
+           <li class="Hidden">10</li>
+       </ul>
+  </div>
 </body>
 </html>
