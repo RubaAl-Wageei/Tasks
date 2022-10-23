@@ -1,0 +1,35 @@
+#body {
+    background-color: darksalmon;
+}
+.div1-3 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#div2 {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: black;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#div2-2 {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+    background-color: antiquewhite;
+    width: 680px;
+    padding: 15px;
+}
+
+.back {
+    background-color: mediumspringgreen;
+}
+
+.back1 {
+    background-color: rgb(56, 177, 169);
+}
